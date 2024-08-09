@@ -1,0 +1,253 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Plus Jakarta Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+
+}
+ul, ol{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+:root{
+  --light-green: #E6F7F1;
+  --dark-green: #05AA70;
+  --text-color: #fff;
+  --dem-green: #0C513F;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+h1, h2, h3, h4, h5, h5{
+  font-weight: 500;
+}
+header{
+  border: 1px solid #F2F2F2;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+}
+nav{
+  width: 85%;
+  margin: 0 auto;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.logo_section{
+  height: fit-content;
+}
+.search_section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+input{
+  border-radius: 8px;
+  border: none;
+  background-color: #F2F2F2;
+  width: 350px ;
+  height: 40px;
+  font-size: 13px;
+  padding-left: 40px;
+  margin-right: 25px;
+}
+.search_bar{
+  position: relative;
+}
+#icons{
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.icons{
+  display: flex;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.rounded-icons{
+  background-color: var(--dem-green);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_small_device{
+  display: none;
+  width: 100%;
+  height: 20px;
+}
+main{
+  border: 1px solid red;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  z-index: 5;
+  padding-top: 120px;
+}
+#main{
+  border: 1px solid green;
+  width: 65%;
+  height: 100%;
+}
+#aside{
+  border: 1px solid green;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  text-align: center;
+}
+.hero_section{
+  padding-right: 20px;
+}
+#image{
+  border-radius: 10px;
+  background-image: url(/images/food.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-top: 10px;
+  position: relative;
+  }
+.time{
+  width: 130px;
+  height: 40px;
+  border: 1px solid#4A776B;
+  border-radius: 5px;
+  background-color:#EDEDED;
+  display: flex;    justify-content: center;
+  align-items: center;
+  color: #4A776B;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#Description{
+  margin-top: 30px;
+}
+.Hot_Bread_row{
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.Hot_Bread{
+  align-items: flex-end;
+}
+.purchase{
+  border: 1px solid #0C513F;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background-color: #E6F7F1;
+}
+.purchase a{
+  background-color: #05AA70;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-size: 13px;
+  color: white;
+}
+#pickup{
+  color: #0C513F;
+   background-color: #E6F7F1;
+}
+.Intercontinental{
+  font-size: 12px;
+  color: #05AA70;
+  font-weight: bold;
+  border-bottom: 1px solid #E5E7EB;
+  padding: 10px 0;
+}
+@media(max-width:1009px){
+  nav{
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  main{
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+ }
+ @media(max-width:1023px){
+  .hero_section{
+    padding-right: 0px;
+  }
+  #aside{
+    display: none;
+  }
+  #main{
+    width: 100%;
+  }
+ }
+@media(max-width:767px){
+  .search_form{
+    display: none;
+  }
+  .form_small_device{
+    display: block;
+    margin-top: 35px;
+  }
+  .form_small_device input{
+    width: 100%;
+  }
+  .icons{
+    width: 100%;
+  }
+  .rounded-icons{
+  width: 35px;
+  height: 35px;
+  }
+  .rounded-icons svg{
+  width: 30px;
+  }
+  #location{
+    display: none;
+  }
+  main{
+    padding-top: 170px;
+  }
+  #image{
+    height: 200px;
+    margin-top: 0px;
+  }
+  .purchase{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .purchase a{
+    padding: 8px 107px;
+  }
+}
+@media(max-width:575px){
+   .purchase a{
+    padding: 8px 54px;
+  }
+
+
+}

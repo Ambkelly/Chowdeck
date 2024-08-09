@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOT BREAD CAFE</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo_section">
+        <span style="margin-right: 30px;">
+          <svg width="45" height="45" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="59" height="59" rx="8" fill="#0C513F"></rect><path d="M31.6406 29.8772C30.9356 30.2218 30.1233 30.3119 29.3538 30.1311C28.5843 29.9502 27.9096 29.5105 27.4542 28.8932C26.9981 28.3011 26.7694 27.5781 26.8062 26.8448C26.8431 26.1116 27.1433 25.4125 27.6567 24.8646C28.1767 24.2969 28.8924 23.9244 29.6753 23.8141C30.4581 23.7038 31.2566 23.8629 31.9272 24.2629C33.2962 25.0685 34.8217 25.6036 36.4127 25.8361C37.6787 26.0035 38.962 26.0539 40.2518 26.1573C40.0979 22.3698 36.6395 17.5095 30.4727 17.307C28.5638 17.2596 26.6792 17.723 25.0335 18.6447C23.3878 19.5664 22.0472 20.9093 21.1642 22.5204C20.2812 24.1315 19.8913 25.9461 20.039 27.7577C20.1867 29.5693 20.866 31.305 21.9995 32.7673L21.8314 32.6475L19 40.1202L25.5175 35.6137C26.8402 36.2608 28.2956 36.6249 29.7817 36.6803C35.5119 36.9025 39.6392 32.6475 40.1479 28.6605C40.0965 28.6372 40.0424 28.6197 39.9867 28.6085C37.0923 28.3565 34.2924 28.6081 31.6406 29.8772Z" fill="#FFC501"></path></svg>
+        </span>
+        <span style="display: flex; align-items: center; display: inline;">
+          <svg width="12" height="17" class="mr-2" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px;"><path d="M6 1.9195e-06C5.21189 -0.000626077 4.43139 0.152847 3.70315 0.45164C2.97491 0.750433 2.31323 1.18868 1.75595 1.74132C1.19867 2.29395 0.756739 2.95012 0.455435 3.67229C0.154131 4.39446 -0.000631338 5.16846 1.93563e-06 5.95C1.93563e-06 10.4125 6 17 6 17C6 17 12 10.4125 12 5.95C12.0006 5.16846 11.8459 4.39446 11.5446 3.67229C11.2433 2.95012 10.8013 2.29395 10.2441 1.74132C9.68678 1.18868 9.02509 0.750433 8.29685 0.45164C7.56861 0.152847 6.78811 -0.000626077 6 1.9195e-06ZM6 8.075C5.57618 8.075 5.16188 7.95037 4.80949 7.71687C4.4571 7.48338 4.18245 7.1515 4.02026 6.7632C3.85807 6.37491 3.81564 5.94764 3.89832 5.53543C3.981 5.12323 4.18509 4.74459 4.48477 4.4474C4.78446 4.15021 5.16628 3.94783 5.58195 3.86583C5.99762 3.78384 6.42848 3.82592 6.82004 3.98676C7.21159 4.14759 7.54626 4.41996 7.78172 4.76941C8.01718 5.11887 8.14286 5.52972 8.14286 5.95C8.14254 6.51349 7.91667 7.05381 7.51488 7.45225C7.11308 7.8507 6.56822 8.07469 6 8.075Z" fill="#02C27F"></path></svg>
+          <a href="#" style="font-size: 12px;">Enter address<img src="./images/down-arrow.png" alt="" width="20px"></a>
+        </span>
+      </div>
+      <div class="search_section">
+        <div class="search_form">
+          <div class="search_bar">
+            <input type="text" placeholder="Search...">
+            <div id="icons">
+              <img src="./images/search.png" alt="" width="20px">
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+          <span class="rounded-icons">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></svg>
+          </span>
+          <span class="rounded-icons">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </span>
+        </div>
+      </div>
+      <div class="form_small_device search_bar">
+        <input type="text" placeholder="Search...">
+        <div id="icons">
+          <img src="./images/search.png" alt="" width="20px">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="main">
+      <!-- Hero Section -->
+      <section class="hero_section">
+        <div id="location">
+          <span><svg width="16" height="16" class="mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 13C21.5523 13 22 12.5523 22 12C22 11.4477 21.5523 11 21 11V13ZM3 11C2.44772 11 2 11.4477 2 12C2 12.5523 2.44772 13 3 13L3 11ZM21 11L3 11L3 13L21 13V11Z" fill="rgb(107 114 128)"></path><path d="M7.29289 17.7071C7.68342 18.0976 8.31658 18.0976 8.70711 17.7071C9.09763 17.3166 9.09763 16.6834 8.70711 16.2929L7.29289 17.7071ZM3 12L2.29289 11.2929C1.90237 11.6834 1.90237 12.3166 2.29289 12.7071L3 12ZM8.70711 7.70711C9.09763 7.31658 9.09763 6.68342 8.70711 6.29289C8.31658 5.90237 7.68342 5.90237 7.29289 6.29289L8.70711 7.70711ZM8.70711 16.2929L3.70711 11.2929L2.29289 12.7071L7.29289 17.7071L8.70711 16.2929ZM3.70711 12.7071L8.70711 7.70711L7.29289 6.29289L2.29289 11.2929L3.70711 12.7071Z" fill="rgb(107 114 128)"></path></svg></span>
+          <span style="font-size: 13px; padding-left: 10px;">
+            Restaurants
+          </span>
+        </div>
+        <!-- Food image_section -->
+        <div id="image">
+          <div class="time">            
+          <span style="padding-bottom: 5px;"><img src="./images/time.png" alt="" width="50%"></span>
+          <span style="margin-left: -15px;">32-42 mins</span>
+          </div>        
+        </div>        
+        <!-- Description and food Order -->
+        <div id="Description">
+          <div class="Hot_Bread_row flex">
+            <div class="Hot_Bread flex">
+              <h3 class="pe-3">Hot Bread Cafe-Ikotun</h3>
+                <p style="font-weight: bold; padding-right: 3px;">2.0 <img src="./images/star icon.png" alt="" width="15px"></p>
+              <p style="color: gray;">(2)</p>
+            </div>
+            <div class="purchase">
+              <a href="#" id="Deliver">Deliver</a>
+              <a href="#" id="pickup">pickup</a>
+            </div>
+          </div>
+          <div class="Intercontinental">
+            <p>INTERCONTINENTAL</p>
+          </div>
+        </div>
+      </section>
+      <section class="hero_section Time-section mt-4">
+        <div>
+          <div class="flex" style="justify-content: space-between;">
+            <p style="font-weight: bold;">Opening time</p>
+            <p style="color: #0C513F;">Min Order: ₦0</p>
+          </div>
+          <div style="color: #c9c6c6f0; margin-top: -15px;"><p>09:00 am - 08:00 pm</p></div>
+        </div>
+        <div>
+          <a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+        </div>        
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div id="aside">
+        <div></div>
+        <div>
+          <p>Your cart is empty <br>Add items to get started</p>
+        </div>
+    </div> 
+  </main>
+</body>
+</html>
